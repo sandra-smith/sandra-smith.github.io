@@ -1,0 +1,28 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f5b3b3;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.traits {
+    line-height: 1.2;
+    font-size: .85em;
+    background-color: #f5b3b3;
+    margin: 2em 0;
+    padding: 2em;
+}
