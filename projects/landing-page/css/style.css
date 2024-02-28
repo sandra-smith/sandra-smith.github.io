@@ -1,0 +1,60 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #F6D6C1;
+    color: #000000;
+    font-size: 16px;
+}
+
+h1,
+h2 {
+    font-family: "Inter", sans-serif;
+    background-color: azure;
+    align-items: center;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+header {
+    text-align: center;
+}
+
+.imgone {
+    max-width: 100%;
+    height: auto;
+}
+
+.imgtwo {
+    max-width: 50%;
+    height: auto;
+}
+
+.imgthree {
+    max-width: 50%;
+    height: auto;
+}
+
+.imgfour {
+    max-width: 50%;
+    height: auto;
+}
+
+.imgfive {
+    max-width: 50%;
+    height: auto;
+}
+
+.imgsix {
+    max-width: 70%;
+    height: auto;
+    align-items: center;
+}
