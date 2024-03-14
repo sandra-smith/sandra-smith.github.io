@@ -1,0 +1,33 @@
+.font {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .color_block1 {
+    background-color: #F6F2F0;
+  }
+  .color_block2 {
+    background-color: #F3E7E4;
+  }
+  .color_block3 {
+    background-color: #E7D1C9;
+  }
+.imageone {
+    width: 200px;
+    height: auto;
+    justify-content: center;
+}
+.paragraphone {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+.imagetwo {
+    justify-content: right;
+    width: 150px;
+    height: max-content;
+}
+.listone {
+    text-align: left;
+    font-family: "Playfair Display", serif;
+}
