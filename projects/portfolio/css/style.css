@@ -1,33 +1,74 @@
 .font {
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-  }
-  .color_block1 {
-    background-color: #F6F2F0;
-  }
-  .color_block2 {
-    background-color: #F3E7E4;
-  }
-  .color_block3 {
-    background-color: #E7D1C9;
-  }
-.imageone {
-    width: 200px;
-    height: auto;
-    justify-content: center;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
 }
+
+.color_block1 {
+  background-color: #F6F2F0;
+}
+
+.color_block2 {
+  background-color: #F3E7E4;
+}
+
+.color_block3 {
+  background-color: #E7D1C9;
+}
+
+.color_block4 {
+  background-color: #DFC2B7;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%
+}
+
 .paragraphone {
-    text-align: center;
-    font-family: "Playfair Display", serif;
+  text-align: center;
+  font-family: "Playfair Display", serif;
 }
-.imagetwo {
-    justify-content: right;
-    width: 150px;
-    height: max-content;
-}
+
 .listone {
-    text-align: left;
-    font-family: "Playfair Display", serif;
+  text-align: left;
+  font-family: "Playfair Display", serif;
+}
+
+.container {
+  width: 100%;
+  float: right;
+  margin-left: 10px;
+}
+
+.textalign {
+  text-align: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 200px;
+}
+
+.centeredtext {
+  text-align: center;
+  font-size: large;
+}
+
+.borderedtext {
+  border: 2px dashed black;
+  padding: 10px;
+  display: inline-block;
+}
+
+.smallimg {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 40px;
 }
