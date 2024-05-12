@@ -1,5 +1,9 @@
 body {
     margin:0;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight:400;
+    padding: 5px;
+    background-color: #F5EEE8;
 }
 header{
     padding:30% 5%;
@@ -14,80 +18,48 @@ header{
 .captionone {
     font-family: "Barlow Condensed", sans-serif;
     font-weight:600;
-    font-style:normal;
-    margin: 0;
     padding: 5px;
     text-align: center;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 2.7em;
 }
 h1,
-h2 {
+.quotes {
     font-family: "Poetsen One", sans-serif;
     font-weight: 800;
-    font-style: normal;
-    text-align: center;
     padding: 10px;
-    font-size:50px;
-    margin:0;
+    font-size: 2.7em;
 }
-p,
-.captions {
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight:400;
-    font-style:normal;
-    margin: 0;
-    padding: 5px;
-}
+
+
 .captions {
     color:dimgray;
     text-align: center;
-    background-color: #F5EEE8;
-    margin:0;
 }
-.backgroundone {
-    background-color: #F5EEE8;
-    margin:0;
-    padding: 10px;
-    text-align:left;
-}
-h2,
+
 .quotes {
     font-weight: 100;
-    font-size:15px;
+    font-size: 0.85em;
     background-color: #F5EEE8;
     padding: 0px 10px 10px 5px;
     text-align: center;
+    border-left:4px solid black;
 }
-.graphone,
-.graphtwo {
-    background-color: #F5EEE8;
-    text-align: left;
-}
+
 .borderedtext {
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
     border: 3px solid black;
     text-align: center;
     padding: 10px;
-    font-size: 30px;
+    font-size: 1.6em;
 }
-.graphtwo,
-.image {
-    text-align:left;
-    padding:10px;
-}
-.center,
-h2 {
-    text-align: left;
-    padding: 10px;
-    border-left:4px solid black;
-}
-.image,
-.imagetwo {
-    max-width: 100%;
-    height: auto;
-}
-.final {
-    background-color:#F5EEE8 ;
-    display: flex;
-    justify-content: center;
+
+footer img {
+    display:block;
+    margin: 0 auto;
 }
